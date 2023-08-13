@@ -1,0 +1,14 @@
+{
+<<<<<<< HEAD
+  "keywordFileContentHash": "58D8E2C01C2F2B119F43C5EEF6284010",
+=======
+  "keywordFileContentHash": "209CFFABA5E3A2A3C4583C04F19708D7",
+>>>>>>> branch 'main' of https://github.com/varun-K-tester/practiceTest.git
+  "keywordClasses": [
+    {
+      "name": "handsOn.placeOrder",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

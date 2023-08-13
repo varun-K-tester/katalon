@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select Payment text checkout page</name>
+   <tag></tag>
+   <elementGuidId>02d92160-d847-477a-a79e-4589278c67db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.h2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/h1[contains(text(),&quot;Select Payment&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>123f30e1-b883-4730-93d6-6500b841ecbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>a1dbf34a-c2f9-4c2b-aa37-ed7bdde32d6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Payment</value>
+      <webElementGuid>43d9f280-9ff3-4093-bcde-1548603d2614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;App&quot;)/main[@class=&quot;CheckoutPage theme-light&quot;]/div[@class=&quot;full-site-width&quot;]/section[@class=&quot;Section pb-sm-3 pb-md-0&quot;]/div[@class=&quot;row theme-light-content&quot;]/div[@class=&quot;col-md-7 px-lg-5 py-sm-5 mb-3 mb-md-0&quot;]/h1[@class=&quot;h2&quot;]</value>
+      <webElementGuid>c1bc7a53-2d54-4002-a30a-d8d1a00f8ca1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='App']/main/div[3]/section/div/div/h1</value>
+      <webElementGuid>536d1c50-3d85-407f-ba47-2c6209fa66cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::h1[1]</value>
+      <webElementGuid>f16a5e47-9b79-4bdf-a0ba-b2436c69af3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[4]/following::h1[1]</value>
+      <webElementGuid>1a330638-6f16-4961-98bf-067c68aff133</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select Payment']/parent::*</value>
+      <webElementGuid>6f041012-c0a8-448a-8471-fc04d759712a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>7a4722b7-3171-4ba9-a13f-81e21f4da00c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Select Payment' or . = 'Select Payment')]</value>
+      <webElementGuid>a94babff-be9c-4584-ac62-2e24c310e5f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

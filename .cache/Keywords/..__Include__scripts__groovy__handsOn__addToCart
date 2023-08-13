@@ -1,0 +1,14 @@
+{
+<<<<<<< HEAD
+  "keywordFileContentHash": "6D42682CF590CB5D3D0DC1C56B7E0A3F",
+=======
+  "keywordFileContentHash": "67C5CC538641890261D42BDC3D066413",
+>>>>>>> branch 'main' of https://github.com/varun-K-tester/practiceTest.git
+  "keywordClasses": [
+    {
+      "name": "handsOn.addToCart",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sign in Header</name>
+   <tag></tag>
+   <elementGuidId>27dc1e4c-313a-434b-9dd9-e715e1268e83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.gigya-composite-control.gigya-composite-control-header.gigya-custom-header</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*/h2[contains(text(),&quot;Sign in&quot;)])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>a6c66b82-19b6-4234-a163-20e852f5603f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-translation-key</name>
+      <type>Main</type>
+      <value>HEADER_131443300282291300_LABEL</value>
+      <webElementGuid>f2cb3c47-b9f8-44e5-a31d-dbb260304d37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gigya-composite-control gigya-composite-control-header gigya-custom-header</value>
+      <webElementGuid>1a27608a-94b8-41b0-be27-f907887ac003</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-screenset-element-id</name>
+      <type>Main</type>
+      <value>__gig_template_element_13_1689315153062</value>
+      <webElementGuid>1038d4ba-452d-43d8-ae53-788ad49cf076</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-screenset-element-id-publish</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>20a370ad-7edd-4d0b-953f-f16464f56a90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-screenset-roles</name>
+      <type>Main</type>
+      <value>instance</value>
+      <webElementGuid>0792ca26-63c9-4b5a-bd46-e16429c96669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>47b5e7ea-952c-4a57-b25d-b04fa96597f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gigya-login-form&quot;)/div[@class=&quot;gigya-layout-row with-divider&quot;]/div[@class=&quot;gigya-layout-cell responsive with-social-login&quot;]/h2[@class=&quot;gigya-composite-control gigya-composite-control-header gigya-custom-header&quot;]</value>
+      <webElementGuid>bace2aa0-c6e6-482d-837a-94ba2b82c099</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='gigya-login-form']/div[2]/div/h2</value>
+      <webElementGuid>0672b6c6-aeb9-498f-a54c-90b56efe521f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You`ve attempted to log in to a disabled account.'])[1]/following::h2[1]</value>
+      <webElementGuid>7c279e75-5e29-4272-9a46-8ea009a5894f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='reset your password'])[1]/following::h2[1]</value>
+      <webElementGuid>fe9b9ed5-20d6-45c7-b5d9-6e8f5f911f44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter a valid email address.'])[1]/preceding::h2[1]</value>
+      <webElementGuid>c67b6aba-1bd2-4589-ade6-34167e996404</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter your password.'])[1]/preceding::h2[1]</value>
+      <webElementGuid>19d59920-7e36-4843-821a-8c2959e2a56f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
+      <webElementGuid>0da9641e-0920-40ef-b984-7e1b3143cc18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>f46fc292-ed2e-4605-ae62-4f907cc2e3d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Sign in' or . = 'Sign in')]</value>
+      <webElementGuid>31f3e57b-12d6-4ed8-924a-6318df2c590b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

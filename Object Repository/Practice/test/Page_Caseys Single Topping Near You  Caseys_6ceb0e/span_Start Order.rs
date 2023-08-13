@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Start Order</name>
+   <tag></tag>
+   <elementGuidId>0148c34a-4513-477b-9da7-5e14f2802838</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='App']/main/div/section[2]/div/div/div/div[2]/div/div/div[2]/div/div[3]/div/form/div[2]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e7f8076d-18b8-49c9-8ec2-60e8c8345a17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>position-relative</value>
+      <webElementGuid>2f0ad33e-349b-4651-a45b-e4a2ee94c8a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Start Order </value>
+      <webElementGuid>cd463b53-5bf1-4ceb-a992-6d199b66f333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;App&quot;)/main[@class=&quot;ProductListPage theme-dark&quot;]/div[@class=&quot;full-site-width content-visibility&quot;]/section[@class=&quot;Section&quot;]/div[@class=&quot;mb-6&quot;]/div[@class=&quot;PlpMenuItem&quot;]/div[@class=&quot;PlpMenuItem__wrapper d-flex flex-wrap&quot;]/div[@class=&quot;PlpMenuItem__food-item last-row-center-item&quot;]/div[@class=&quot;FoodItem&quot;]/div[@class=&quot;row col-12 FoodItem__plp-mobile-margin m-0 p-0 mb-4 mt-3&quot;]/div[@class=&quot;col-7 p-0 text-left&quot;]/div[@class=&quot;align-items-center&quot;]/div[@class=&quot;d-none d-block&quot;]/div[1]/form[@class=&quot;FoodItem__configure&quot;]/div[@class=&quot;col p-1 FoodItem__action-btn&quot;]/button[@class=&quot;btn btn-primary w-100&quot;]/span[@class=&quot;position-relative&quot;]</value>
+      <webElementGuid>b886f322-37f6-4651-b5de-07c70b4e232d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='App']/main/div/section[2]/div/div/div/div[2]/div/div/div[2]/div/div[3]/div/form/div[2]/button/span</value>
+      <webElementGuid>848636e2-3a7d-4d63-a2c9-ebbc980c47b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customize'])[2]/following::span[1]</value>
+      <webElementGuid>8b541229-cb13-41bb-829d-d7602c151b6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Large'])[2]/following::span[2]</value>
+      <webElementGuid>3aaa717b-dc86-4822-bb9c-7e6220e6b423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available In Store Only'])[2]/preceding::span[1]</value>
+      <webElementGuid>8af38cfb-7488-4a87-a934-e915eb72e016</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available For Select Times'])[1]/preceding::span[1]</value>
+      <webElementGuid>c43d567c-69df-460a-8789-1988d74dd93d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div[3]/div/form/div[2]/button/span</value>
+      <webElementGuid>bc4fcbd5-0d92-4be1-8718-5a6068d9cf4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Start Order ' or . = ' Start Order ')]</value>
+      <webElementGuid>d0968c12-09ba-4537-9041-e4bc904ce7c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

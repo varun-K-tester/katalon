@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Review Checkout BTN</name>
+   <tag></tag>
+   <elementGuidId>fc2da1f5-8565-4afb-a203-d13a129aca4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-automation-id=&quot;reviewAndCheckoutDesktopButton&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.link-btn-primary.d-none.d-sm-block</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b5aaf4be-43ef-414a-a24f-c9f2040d7324</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-automation-id</name>
+      <type>Main</type>
+      <value>reviewAndCheckoutDesktopButton</value>
+      <webElementGuid>aeb16ce3-d4df-4850-959d-464ec6dea782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cart</value>
+      <webElementGuid>93a80b43-5c8a-4e57-8c34-6a7c541653a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn link-btn-primary d-none d-sm-block</value>
+      <webElementGuid>81d51d73-1daa-4b29-a694-84a394c36eac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Review	&amp; Checkout </value>
+      <webElementGuid>e57d5eb7-5157-42de-a09b-1e64e26e7bdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;App&quot;)/main[@class=&quot;ProductListPage theme-dark&quot;]/div[@class=&quot;ConfirmationCrossSellBanner&quot;]/div[@class=&quot;ConfirmationCrossSellBanner__banner ConfirmationCrossSellBanner__banner--desktop&quot;]/div[@class=&quot;full-site-width&quot;]/div[@class=&quot;ConfirmationCrossSellBanner__banner_section&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;ml-auto&quot;]/a[@class=&quot;btn link-btn-primary d-none d-sm-block&quot;]</value>
+      <webElementGuid>7825dd8b-b732-4f43-93d5-8b28abfcf140</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='App']/main/div/div/div/div/div/div[2]/a</value>
+      <webElementGuid>08f592f7-9dd9-4051-ab6a-347273e501c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Review	&amp; Checkout')]</value>
+      <webElementGuid>936a9c21-a7cc-4e39-bb71-d7df9b75e8fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sausage Pizza Added!'])[1]/following::a[1]</value>
+      <webElementGuid>5b6cb5e3-d433-4ea0-a777-35ccf1cc6264</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::a[1]</value>
+      <webElementGuid>2ebe613a-6cea-4ca6-b9de-7716343d59fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delicious additions for your order:'])[1]/preceding::a[1]</value>
+      <webElementGuid>2ac9b1fd-dac7-4854-bacd-66bc1899aae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Cheese Sauce'])[1]/preceding::a[1]</value>
+      <webElementGuid>0b6e9675-1f64-4705-a254-1a5a7741759e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/cart')])[3]</value>
+      <webElementGuid>dfa02b2c-91a3-4a74-bf08-509316f7dff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/a</value>
+      <webElementGuid>7b193e64-1800-43d5-b19e-6f51439b51d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/cart' and (text() = 'Review	&amp; Checkout ' or . = 'Review	&amp; Checkout ')]</value>
+      <webElementGuid>eb8cbd1f-b282-4465-98e3-ddebb830e3af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

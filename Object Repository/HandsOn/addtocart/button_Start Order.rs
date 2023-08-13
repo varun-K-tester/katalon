@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Start Order</name>
+   <tag></tag>
+   <elementGuidId>7f771c6f-e48f-4d5f-92d8-9a4a576d4def</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.w-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/button[@data-automation-id=&quot;startOrderButton&quot; and @type=&quot;submit&quot;][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>af9a01ac-5d12-49f9-9ecf-0705fed53d29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-automation-id</name>
+      <type>Main</type>
+      <value>startOrderButton</value>
+      <webElementGuid>548fba19-cb70-435c-bb4e-933edafcec6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>549412cf-bb19-42a0-a2bd-6ca3b329ea1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary w-100</value>
+      <webElementGuid>163f61a8-82b4-4528-b9d5-4b04b5a1721f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Start Order</value>
+      <webElementGuid>d92b90be-4052-436f-ac6c-54d0a20c5ea8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;App&quot;)/section[@class=&quot;OrderFlow&quot;]/div[@class=&quot;InitiateOrder mobile-phase-3&quot;]/div[@class=&quot;InitiateOrder__stores-container theme-light&quot;]/div[@class=&quot;InitiateOrder__stores-container_inner&quot;]/div[@class=&quot;w-100 h-100&quot;]/div[@class=&quot;StoreSelection&quot;]/div[@class=&quot;StoreSelection__store-results px-2 px-sm-3 px-md-5&quot;]/div[@class=&quot;StoreSelection__store-results_list d-sm-flex flex-column pr-sm-2&quot;]/div[@class=&quot;StoreSelection__store-results_list_stores flex-sm-grow-1&quot;]/div[2]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;RetailStore&quot;]/div[@class=&quot;StoreCard&quot;]/div[@class=&quot;StoreCardRow p-2 StoreCardRow__selection&quot;]/form[1]/button[@class=&quot;btn btn-primary w-100&quot;]</value>
+      <webElementGuid>749f7ded-5666-4983-b23b-89b11e46f5d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[2]</value>
+      <webElementGuid>53064b5f-b9ee-4c74-9541-eb5453540253</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='App']/section/div[2]/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/form/button</value>
+      <webElementGuid>eec11d9d-afec-4e5f-9e13-d7255652b9c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Est. Time:'])[1]/following::button[1]</value>
+      <webElementGuid>34921760-e3ed-4665-80a5-9c69b00ab27f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='When would you like your order?'])[1]/following::button[1]</value>
+      <webElementGuid>770c1435-3d49-4e54-9edf-146293696bee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[7]/preceding::button[1]</value>
+      <webElementGuid>2cf2cc10-8a5d-4a82-8557-ca2faa9e49e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/form/button</value>
+      <webElementGuid>d6dcf380-e0d7-4b73-8590-8da54e640d41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Start Order' or . = 'Start Order')]</value>
+      <webElementGuid>2348b847-41db-478e-8b92-e6d5ed4c3d4e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

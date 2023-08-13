@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>creditCard_charge</name>
+   <tag></tag>
+   <elementGuidId>de4ffcfb-cbf4-4052-abe0-45b5d1b86f09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '126.30' or . = '126.30')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bea9a610-7013-4c69-80e4-880fd7aba623</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-weight-bold </value>
+      <webElementGuid>b4262144-481d-45ba-8650-43ef1e38b273</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>126.30</value>
+      <webElementGuid>bd9902b7-2f6b-48f9-b6cb-e717146f4fc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;App&quot;)/main[@class=&quot;CheckoutPage theme-light&quot;]/div[@class=&quot;full-site-width&quot;]/section[@class=&quot;Section pb-sm-3 pb-md-0&quot;]/div[@class=&quot;row theme-light-content&quot;]/div[@class=&quot;col-md-7 px-lg-5 py-sm-5 mb-3 mb-md-0&quot;]/div[@class=&quot;d-none d-md-block&quot;]/div[@class=&quot;my-4&quot;]/span[1]/span[@class=&quot;font-weight-bold&quot;]</value>
+      <webElementGuid>5cc894e8-c82b-4ba4-b58b-05f78529fc92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='App']/main/div[3]/section/div/div/div[6]/div/span/span</value>
+      <webElementGuid>abed0ef3-f050-4b6e-9dd3-ad82ce3f8a6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::span[1]</value>
+      <webElementGuid>ae98cdaa-e0a5-4df1-acf0-f7be95ed8826</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Place pickup order'])[1]/preceding::span[1]</value>
+      <webElementGuid>a3fcc5ad-297f-4e56-ba22-2467f0608c65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::span[2]</value>
+      <webElementGuid>c6add4b1-dfb6-44a3-90a5-79b7c0210987</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='126.30']/parent::*</value>
+      <webElementGuid>637acc0e-0935-47ff-84e1-7cd5047fac26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/span/span</value>
+      <webElementGuid>16885792-7989-4288-b711-5be6b988f030</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '126.30' or . = '126.30')]</value>
+      <webElementGuid>3b8ce311-0b43-4fa9-876a-24ee94bd9622</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
