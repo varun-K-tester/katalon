@@ -45,14 +45,18 @@ class placeOrder {
 				String giftCardNum = findTestData('Data Files/giftCards').getValue(1,1)
 				String giftCardPin = findTestData('Data Files/giftCards').getValue(2,1)
 				WebUI.click(findTestObject('Object Repository/HandsOn/placeOrder/use_giftCard'))
-				WebUI.sendKeys(findTestObject("Object Repository/HandsOn/placeOrder/giftCard_cardNumber"), giftCardNum)
-				WebUI.sendKeys(findTestObject("Object Repository/HandsOn/placeOrder/giftCard_CardPin"), giftCardPin)
-				WebUI.click(findTestObject("Object Repository/HandsOn/placeOrder/giftCard_apply"))
+				WebUI.sendKeys(findTestObject('Object Repository/HandsOn/placeOrder/giftCard_cardNumber'), giftCardNum)
+				WebUI.sendKeys(findTestObject('Object Repository/HandsOn/placeOrder/giftCard_CardPin'), giftCardPin)
+				WebUI.click(findTestObject('Object Repository/HandsOn/placeOrder/giftCard_apply'))
 				break;
 
 			case ('creditCard'):
-				String subTotal1 = WebUI.getText(findTestObject('Object Repository/HandsOn/placeOrder/creditCard_charge'))
-				String subTotal2 = subTotal1.substring(0, subTotal1.lastIndexOf("."))
+				String creditCard_charge_temp = WebUI.getText(findTestObject('Object Repository/HandsOn/placeOrder/creditCard_charge'))
+				println creditCard_charge_temp
+				String creditCard_charge = creditCard_charge_temp.substring(0, creditCard_charge_temp.lastIndexOf("."))
+				String subTotal_temp = WebUI.getText(findTestObject('Object Repository/HandsOn/placeOrder/subTotal_ordersummary'))
+				String subTotal= subTotal_temp.substring(0,subTotal_temp.lastIndexOf("."))
+				
 			//		for(int i = 1;i < subTotal1.size() ;i++) {
 			//			if (subTotal1[i].equals('.')) {
 			//				break;
@@ -63,9 +67,10 @@ class placeOrder {
 			//				n++
 			//			}
 			//		}
-				println subTotal2
-				int subTotal= subTotal2.toInteger()
-				if(subTotal >1) {
+				println (creditCard_charge + " " + subTotal)
+				int creditCard_charge_int = creditCard_charge.toInteger()
+				int subTotal_int= subTotal.toInteger()
+				if(subTotal_int>=15 && creditCard_charge_int >=15 ) {
 					WebUI.sendKeys(findTestObject('Object Repository/HandsOn/placeOrder/cvv'), '123')
 					WebUI.click(findTestObject('Object Repository/HandsOn/placeOrder/Place pickup order BTN'))
 				}
@@ -84,7 +89,7 @@ class placeOrder {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/placeOrder/img'), 5)
 		GlobalVariable.order_Number = WebUI.getText(findTestObject('Object Repository/HandsOn/placeOrder/orderNumber'))
 		println(GlobalVariable.order_Number)
-		
+
 
 	}
 }

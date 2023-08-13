@@ -52,17 +52,38 @@ class Rewardpoints {
 	@Then("Navigate to transaction page")
 	def Navigate_to_transaction_page() {
 		WebUI.waitForPageLoad(10)
-		WebUI.click(findTestObject('Object Repository/HandsOn/Rewardpoints/transactionPage_link'))
+		//WebUI.click(findTestObject('Object Repository/HandsOn/Rewardpoints/transactionPage_link'))
+		WebUI.click(findTestObject('Object Repository/HandsOn/Rewardpoints/accountPage_link'))
 		WebUI.waitForPageLoad(10)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/Rewardpoints/transactionPage_Title'), 0)
+		WebUI.click(findTestObject('Object Repository/HandsOn/Rewardpoints/transactionPage_Title'))
 	}
 
 	@And("Get order number and reward points")
 	def Get_order_number_and_reward_points() {
 		WebUI.waitForPageLoad(10)
-		String transactionPage_num_temp = WebUI.getText(findTestObject('Object Repository/HandsOn/Rewardpoints/firstPoints_transaction'))
-		String transactionPage_num = transactionPage_num.substring(0, transactionPage_num.lastIndexOf(" "))
-		if(transactionPage_num == GlobalVariable.rewardPoints)
+
+		String transactionPage_Onum_temp = WebUI.getText(findTestObject('Object Repository/HandsOn/Rewardpoints/orderNum_transactionPage'))
+		String transactionPage_Onum = extractInts(transactionPage_Onum_temp)
+		//String transactionPage_Onum1 = transactionPage_Onum
+		
+
+		String transactionPage_points_temp = WebUI.getText(findTestObject('Object Repository/HandsOn/Rewardpoints/firstPoints_transaction'))
+		//String transactionPage_points = transactionPage_points_temp.substring(0, transactionPage_points_temp.lastIndexOf(" "))
+
+		String transactionPage_points = extractInts(transactionPage_points_temp)
+
+		println(transactionPage_Onum)
+		println(transactionPage_points)
+
+		if(transactionPage_points == GlobalVariable.rewardPoints)
 			println("Equal")
+		else
+			assert false
+	}
+
+	def extractInts( String input ) {
+		String safe = input.findAll( /\d+/ )
+		safe.substring(1, safe.lastIndexOf("]"))
 	}
 }

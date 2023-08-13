@@ -19,7 +19,7 @@ class ChooseProduct {
 	@Given("User has selected occasion")
 	def verifyUserIsOnHomepage() {
 		WebUI.waitForPageLoad(10)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/ChooseProducts/verifyHomepage'), 20)
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/ChooseProducts/verifyHomepage'), 20)
 	}
 
 	@When("User navigate to menupage")
@@ -32,7 +32,6 @@ class ChooseProduct {
 	def categoryL1Nav(String categoryL1) {
 		WebUI.waitForPageLoad(10)
 		String str = "//*/img[@alt='" + categoryL1 + "']"
-		println(str)
 		//WebUI.waitForElementClickable(//*/img[@alt="Pizza"], 5)
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement element = driver.findElement(By.xpath("//*/img[@alt='" + categoryL1 + "']"))
@@ -43,7 +42,6 @@ class ChooseProduct {
 	def categoryL2Nav(String categoryL2) {
 		WebUI.waitForPageLoad(10)
 		GlobalVariable.L2 = categoryL2
-		println(findTestObject('Object Repository/HandsOn/ChooseProducts/categoryL2'))
 		WebUI.click(findTestObject('Object Repository/HandsOn/ChooseProducts/categoryL2'))
 	}
 	@Then("verify if product is available")

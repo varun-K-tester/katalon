@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>subtotal</name>
+   <name>subTotal_ordersummary</name>
    <tag></tag>
-   <elementGuidId>e241d726-39cf-41e0-a2b4-ae2c2ea2c074</elementGuidId>
+   <elementGuidId>2794bfff-e301-4c06-822b-1a72978dcc4f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//*/div[contains(text(),'Subtotal')]/following::div/span)[1]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),&quot;Subtotal&quot;)]/following::div[1][@class=&quot;col-4 text-right&quot;]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
