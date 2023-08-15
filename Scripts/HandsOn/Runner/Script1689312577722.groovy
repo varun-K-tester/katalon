@@ -24,6 +24,7 @@ CucumberKW.runFeatureFile('Include/features/HandsOn/Occasion_selection.feature')
 CucumberKW.runFeatureFile('Include/features/HandsOn/ChooseProduct.feature')
 CucumberKW.runFeatureFile('Include/features/HandsOn/AddToCart.feature')
 CucumberKW.runFeatureFile('Include/features/HandsOn/PlaceOrder.feature')
+CucumberKW.runFeatureFile('Include/features/HandsOn/Rewardpoints.feature')
 CucumberKW.runFeatureFile('Include/features/HandsOn/Close_site.feature')
 
 

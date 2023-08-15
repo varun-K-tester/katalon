@@ -7,4 +7,4 @@ Feature: Adding product to cart
 
     Examples: 
       | quantity |
-      |        5 |
+      |        2 |

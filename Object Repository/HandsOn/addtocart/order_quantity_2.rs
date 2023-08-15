@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PLP_add_BTN</name>
+   <name>order_quantity_2</name>
    <tag></tag>
-   <elementGuidId>b7ba7a99-9542-4aa8-a98a-05edf895513d</elementGuidId>
+   <elementGuidId>cca4b329-af3c-483f-8b54-6ccd2cbdcb93</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*/span[contains(text(),&quot;Add&quot;)])[1]</value>
+         <value>(//*[@data-automation-id=&quot;FoodItemQty&quot;])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

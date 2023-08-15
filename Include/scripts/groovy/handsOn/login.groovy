@@ -17,7 +17,7 @@ class login {
 		WebUI.waitForPageLoad(10)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/Login/Sign in Header'),5)
 	}
-	
+
 	@When("User enters username (\\d+)")
 	def username(int rowNum) {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/Login/Email'), 5)
@@ -25,7 +25,7 @@ class login {
 		String username = findTestData('Data Files/Login_cred').getValue(1,rowNum)
 		WebUI.sendKeys(findTestObject('Object Repository/HandsOn/Login/Email'),username)
 	}
-	
+
 	@And("User enters password (\\d+)")
 	def password(int rowNum) {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/Login/password'),5)
@@ -33,7 +33,7 @@ class login {
 		String password = findTestData('Data Files/Login_cred').getValue(2,rowNum)
 		WebUI.setEncryptedText(findTestObject('Object Repository/HandsOn/Login/password'), password)
 	}
-	
+
 	@Then("User is succesfully logged in")
 	def loggedIn(){
 		WebUI.verifyElementClickable(findTestObject('Object Repository/HandsOn/Login/sign_in_btn'))

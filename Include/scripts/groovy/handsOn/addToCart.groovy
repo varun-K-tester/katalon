@@ -18,7 +18,10 @@ class addToCart {
 
 	@And("User enters quantity:(.*)")
 	def Addtocartbuttonisenabled(String quantity) {
-		WebUI.selectOptionByValue(findTestObject('Object Repository/HandsOn/addtocart/order_quantity'), quantity, true)
+		if(WebUI.waitForElementClickable(findTestObject('Object Repository/HandsOn/addtocart/order_quantity'), 10)==false)
+			WebUI.selectOptionByValue(findTestObject('Object Repository/HandsOn/addtocart/order_quantity'), quantity, true)
+		else
+			WebUI.selectOptionByValue(findTestObject('Object Repository/HandsOn/addtocart/order_quantity_2'), quantity, true)
 	}
 
 	@Then("User clicks on add to cart button")

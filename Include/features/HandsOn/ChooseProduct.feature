@@ -9,6 +9,6 @@ Feature: Choosing product to order
     And User chooses <product> product
 
     Examples: 
-      | category L1 | category L2    | product      |
-      | Drinks      | Pepsi Products | Mtn Dew 20oz |
-  #   | Pizza       | Single Topping | Sausage Pizza |
+      | category L1 | category L2    | product       |
+      #   | Drinks      | Pepsi Products | Mtn Dew 20oz |
+      | Pizza       | Single Topping | Sausage Pizza |

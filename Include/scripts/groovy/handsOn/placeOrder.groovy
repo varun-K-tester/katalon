@@ -30,8 +30,15 @@ class placeOrder {
 
 	@And("User clicks on checkout")
 	def checkoutpage() {
-		WebUI.verifyElementClickable(findTestObject('Object Repository/HandsOn/placeOrder/Checkout BTN'))
-		WebUI.click(findTestObject('Object Repository/HandsOn/placeOrder/Checkout BTN'))
+		
+			WebUI.scrollToElement(findTestObject('Object Repository/HandsOn/placeOrder/checkoutBTN_2'),10)
+			WebUI.click(findTestObject('Object Repository/HandsOn/placeOrder/checkoutBTN_2'))
+			
+//		if (WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/placeOrder/checkoutBTN_2'),10)==true)
+//			WebUI.click(findTestObject('Object Repository/HandsOn/placeOrder/checkoutBTN_2'))
+//		else
+//			WebUI.click(findTestObject('Object Repository/HandsOn/placeOrder/Checkout BTN'))
+
 		WebUI.waitForPageLoad(10)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/HandsOn/placeOrder/Select Payment text checkout page'), 5)
 	}
@@ -56,7 +63,7 @@ class placeOrder {
 				String creditCard_charge = creditCard_charge_temp.substring(0, creditCard_charge_temp.lastIndexOf("."))
 				String subTotal_temp = WebUI.getText(findTestObject('Object Repository/HandsOn/placeOrder/subTotal_ordersummary'))
 				String subTotal= subTotal_temp.substring(0,subTotal_temp.lastIndexOf("."))
-				
+
 			//		for(int i = 1;i < subTotal1.size() ;i++) {
 			//			if (subTotal1[i].equals('.')) {
 			//				break;

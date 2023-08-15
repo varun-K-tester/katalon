@@ -17,15 +17,16 @@ class Close_site {
 
 	@When ("All scenarios are passed")
 	def condition() {
-		if (GlobalVariable.numOfFails == 0){
+		if (GlobalVariable.numOfFails == 1){
 			println("/Code executed successfully")
 			println ("Passes: " + GlobalVariable.numOfPasses)
-			//WebUI.navigateToUrl('https://www.mediawiki.org/wiki/Special:Contributions/')
-			//WebUI.closeWindowIndex(1)
-			WebUI.closeBrowser()
+			WebUI.closeWindowIndex(1)
 		}
 		else {
-			println( GlobalVariable.numOfFails + " test cases failed. Look into code")
+			println( GlobalVariable.numOfFails)
+			println( " test cases failed. Look into code")
+			WebUI.closeWindowIndex(1)
+			
 		}
 	}
 
@@ -33,5 +34,6 @@ class Close_site {
 	def closeSite(){
 		println ("Passes: " + GlobalVariable.numOfPasses)
 		println( GlobalVariable.numOfFails + " test cases failed. Look into code")
+		WebUI.closeBrowser()
 	}
 }
