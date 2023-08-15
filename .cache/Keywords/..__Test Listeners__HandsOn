@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "EB9A35CAFBE9E44C2D73857C69C5AFE7",
+  "keywordFileContentHash": "EB952F74D3BF4EDEE33C732F0A424077",
   "keywordClasses": [
     {
       "name": "HandsOn",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
